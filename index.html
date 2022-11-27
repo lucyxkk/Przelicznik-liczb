@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Przelicznik</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="name">
+        <h2 class="name-brand">Przelicznik liczb</h2>
+    </div>
+    <div class="main">
+        <h1>Nie wiesz ile tysięcy jest w miliardzie?</h1>
+        <h2>Wpisz liczbę, wybierz jednostkę i gotowe.</h2>
+        <hr>
+    </div>
+    <br>
+    <br>
+    <div class="box">
+        <form class="input">
+            <label class="liczba" for="number">Liczba: </label>
+            <input class="input_liczba" type="number" name="number" value="">
+                <select class="jednostka" name="Jednostka">
+                    <option value="Miliard">Miliard</option>
+                    <option value="Milion">Milion</option>
+                    <option value="Tysiąc">Tysiąc</option>
+                    <option value="Sto">Sto</option>
+                    <option value="Złoty">Złoty</option>
+                    <option value="Groszy">Groszy</option>
+                </select>
+            <button class="button_przelicz" type="button">Przelicz</button>
+        </form>
+        <img class="arrow" src="down-arrow.png" alt="arrow">
+    </div>
+    
+    </body>
+</html>
